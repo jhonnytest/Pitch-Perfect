@@ -2,6 +2,7 @@
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6254" systemVersion="14C81h" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="wNJ-74-obK">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6247"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--Record-->
@@ -124,8 +125,8 @@
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
-                                <variation key="widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="15" y="110" width="110" height="60"/>
+                                <variation key="widthClass=compact" misplaced="YES">
+                                    <rect key="frame" x="40" y="110" width="110" height="60"/>
                                 </variation>
                                 <connections>
                                     <action selector="snailButton:" destination="DiA-0f-zAj" eventType="touchUpInside" id="Ph3-gb-sl1"/>
@@ -152,8 +153,8 @@
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
-                                <variation key="widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="275" y="110" width="110" height="60"/>
+                                <variation key="widthClass=compact" misplaced="YES">
+                                    <rect key="frame" x="240" y="110" width="110" height="60"/>
                                 </variation>
                                 <connections>
                                     <action selector="rabbitButton:" destination="DiA-0f-zAj" eventType="touchUpInside" id="afQ-bY-484"/>
@@ -162,8 +163,12 @@
                         </subviews>
                         <color key="backgroundColor" red="1" green="0.40000000600000002" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
-                            <constraint firstAttribute="centerX" secondItem="9Qh-ZX-UGa" secondAttribute="centerX" id="Dmw-vs-BvD"/>
-                            <constraint firstAttribute="centerY" secondItem="9Qh-ZX-UGa" secondAttribute="centerY" constant="-226" id="Now-am-tj9"/>
+                            <constraint firstAttribute="centerX" secondItem="9Qh-ZX-UGa" secondAttribute="centerX" id="5Ik-wk-akJ"/>
+                            <constraint firstItem="Ruy-ue-bvd" firstAttribute="leading" secondItem="f3Q-lx-9UU" secondAttribute="leadingMargin" constant="1" id="K67-gn-Y8p"/>
+                            <constraint firstItem="DVX-2P-moY" firstAttribute="top" secondItem="DkU-NE-2Di" secondAttribute="bottom" constant="45" id="O4b-kt-x4N"/>
+                            <constraint firstItem="Ruy-ue-bvd" firstAttribute="top" secondItem="DkU-NE-2Di" secondAttribute="bottom" constant="45" id="RlR-M7-8tD"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="DVX-2P-moY" secondAttribute="trailing" constant="1" id="YhB-8e-VhF"/>
+                            <constraint firstItem="YaY-95-WBA" firstAttribute="top" secondItem="9Qh-ZX-UGa" secondAttribute="bottom" constant="59" id="z9T-WO-n6m"/>
                         </constraints>
                         <variation key="default">
                             <mask key="subviews">
@@ -172,8 +177,12 @@
                                 <exclude reference="DVX-2P-moY"/>
                             </mask>
                             <mask key="constraints">
-                                <exclude reference="Dmw-vs-BvD"/>
-                                <exclude reference="Now-am-tj9"/>
+                                <exclude reference="K67-gn-Y8p"/>
+                                <exclude reference="RlR-M7-8tD"/>
+                                <exclude reference="O4b-kt-x4N"/>
+                                <exclude reference="YhB-8e-VhF"/>
+                                <exclude reference="5Ik-wk-akJ"/>
+                                <exclude reference="z9T-WO-n6m"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
@@ -183,8 +192,12 @@
                                 <include reference="DVX-2P-moY"/>
                             </mask>
                             <mask key="constraints">
-                                <include reference="Dmw-vs-BvD"/>
-                                <include reference="Now-am-tj9"/>
+                                <include reference="K67-gn-Y8p"/>
+                                <include reference="RlR-M7-8tD"/>
+                                <include reference="O4b-kt-x4N"/>
+                                <include reference="YhB-8e-VhF"/>
+                                <include reference="5Ik-wk-akJ"/>
+                                <include reference="z9T-WO-n6m"/>
                             </mask>
                         </variation>
                     </view>
