@@ -13,6 +13,7 @@
 		3494FD391A29F14000A229A1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3494FD381A29F14000A229A1 /* Images.xcassets */; };
 		3494FD3C1A29F14000A229A1 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3494FD3A1A29F14000A229A1 /* LaunchScreen.xib */; };
 		3494FD481A29F14000A229A1 /* Pitch_PerfectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3494FD471A29F14000A229A1 /* Pitch_PerfectTests.swift */; };
+		34ADE5571A56E41D0044D3C7 /* PlaySoundsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34ADE5561A56E41D0044D3C7 /* PlaySoundsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		3494FD411A29F14000A229A1 /* Pitch PerfectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Pitch PerfectTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3494FD461A29F14000A229A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3494FD471A29F14000A229A1 /* Pitch_PerfectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pitch_PerfectTests.swift; sourceTree = "<group>"; };
+		34ADE5561A56E41D0044D3C7 /* PlaySoundsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaySoundsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 			children = (
 				3494FD311A29F14000A229A1 /* AppDelegate.swift */,
 				3494FD331A29F14000A229A1 /* ViewController.swift */,
+				34ADE5561A56E41D0044D3C7 /* PlaySoundsViewController.swift */,
 				3494FD351A29F14000A229A1 /* Main.storyboard */,
 				3494FD381A29F14000A229A1 /* Images.xcassets */,
 				3494FD3A1A29F14000A229A1 /* LaunchScreen.xib */,
@@ -213,6 +216,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3494FD341A29F14000A229A1 /* ViewController.swift in Sources */,
+				34ADE5571A56E41D0044D3C7 /* PlaySoundsViewController.swift in Sources */,
 				3494FD321A29F14000A229A1 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -405,6 +409,7 @@
 				3494FD4D1A29F14000A229A1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3494FD4E1A29F14000A229A1 /* Build configuration list for PBXNativeTarget "Pitch PerfectTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +418,7 @@
 				3494FD501A29F14000A229A1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
