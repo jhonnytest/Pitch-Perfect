@@ -141,6 +141,9 @@
                                 <variation key="widthClass=compact" misplaced="YES">
                                     <rect key="frame" x="165" y="511" width="70" height="30"/>
                                 </variation>
+                                <connections>
+                                    <action selector="stopAction:" destination="DiA-0f-zAj" eventType="touchUpInside" id="tXd-a7-WUg"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DVX-2P-moY">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>

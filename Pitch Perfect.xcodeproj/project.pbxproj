@@ -14,6 +14,7 @@
 		3494FD3C1A29F14000A229A1 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3494FD3A1A29F14000A229A1 /* LaunchScreen.xib */; };
 		3494FD481A29F14000A229A1 /* Pitch_PerfectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3494FD471A29F14000A229A1 /* Pitch_PerfectTests.swift */; };
 		34ADE5571A56E41D0044D3C7 /* PlaySoundsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34ADE5561A56E41D0044D3C7 /* PlaySoundsViewController.swift */; };
+		34ADE5591A570D4C0044D3C7 /* 09 Jab Tak Hai Jaan - The Poem.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 34ADE5581A570D4C0044D3C7 /* 09 Jab Tak Hai Jaan - The Poem.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,7 @@
 		3494FD461A29F14000A229A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3494FD471A29F14000A229A1 /* Pitch_PerfectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pitch_PerfectTests.swift; sourceTree = "<group>"; };
 		34ADE5561A56E41D0044D3C7 /* PlaySoundsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaySoundsViewController.swift; sourceTree = "<group>"; };
+		34ADE5581A570D4C0044D3C7 /* 09 Jab Tak Hai Jaan - The Poem.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "09 Jab Tak Hai Jaan - The Poem.mp3"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +95,7 @@
 		3494FD2F1A29F14000A229A1 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				34ADE5581A570D4C0044D3C7 /* 09 Jab Tak Hai Jaan - The Poem.mp3 */,
 				3494FD301A29F14000A229A1 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -196,6 +199,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3494FD371A29F14000A229A1 /* Main.storyboard in Resources */,
+				34ADE5591A570D4C0044D3C7 /* 09 Jab Tak Hai Jaan - The Poem.mp3 in Resources */,
 				3494FD3C1A29F14000A229A1 /* LaunchScreen.xib in Resources */,
 				3494FD391A29F14000A229A1 /* Images.xcassets in Resources */,
 			);
